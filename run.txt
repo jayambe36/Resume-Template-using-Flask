@@ -1,0 +1,18 @@
+//step 1 : make a virtual environment, here liveWebDev is the name of the virtual environment
+$python -m venv liveWebDev
+now, a folder named liveWebDev will be created in the current directory
+
+//step 2 : activate the virtual environment
+$.\liveWebDev\Scripts\activate
+
+//step 3 : install flask
+$pip install flask
+
+//step 4 : run the app
+$python app.py
+
+==========
+
+make static folder in root : add css, js files
+make templates folder in root : add html files
+make app.py file in root : add flask code

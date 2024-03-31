@@ -1,0 +1,33 @@
+# Virtual environment
+venv/
+
+# Compiled Python files
+*.pyc
+
+# Dependencies
+/lib/
+/lib64/
+/bin/
+/include/
+/local/
+/share/
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Environment variables
+.env
+
+# IDE files
+.idea/
+.vscode/
+
+# Miscellaneous
+__pycache__/
+*.py[cod]
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
