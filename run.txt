@@ -11,6 +11,14 @@ $pip install flask
 //step 4 : run the app
 $python app.py
 
+
+//for making requirements.txt file
+$python -m pip freeze > requirements.txt
+
+
+//install all the dependencies which mention in requirements.txt file
+$python -m pip install -r requirements.txt
+
 ==========
 
 make static folder in root : add css, js files
